@@ -35,6 +35,7 @@ cursor = connect.cursor()
 # connect.commit()
 # cursor.close()
 
+# 从数据库中拉取数据
 cursor = connect.cursor()
 cursor.execute('select * from spider where id = %s', ('1',))
 values = cursor.fetchall()
