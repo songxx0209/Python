@@ -163,3 +163,9 @@ except:
 
 #### ------------------------------------最后成功解决问题----------------------------
 
+```
+$ python manage.py makemigrations
+$ python manage.py migrate
+```
+
+最后 创建好数据库 中的表。
