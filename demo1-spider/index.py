@@ -27,7 +27,7 @@ connect = pymysql.Connect(
     charset='utf8'
 )
 
-cursor = connect.cursor()
+# cursor = connect.cursor()
 
 # cursor.execute('create table spider (id varchar(20) primary key, url varchar(200))')
 # cursor.execute('insert into spider (id, url) values (%s, %s)', ['1', spider_url])
