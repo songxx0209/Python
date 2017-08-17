@@ -4,23 +4,8 @@
 
 - [设置镜像参考](http://www.jianshu.com/p/3621780417be)
 
-- 有多个pip 源， 怎么管理使用
+- 有多个pip 源， 怎么管理使用​
 
-  ​
-
-2：创建一个django脚手架
-
-```
-django-admin startproject myblog
-```
-
-
-
-3：创建一个项目
-
-```
-python manage.py startapp firstblog 
-```
 
 # django 开发网站再学习，整理笔记
 
