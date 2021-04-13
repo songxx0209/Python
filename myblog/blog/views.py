@@ -36,7 +36,8 @@ def edit_action(request):
     article.title = title
     article.content = content
     article.save()
-    return render(request, 'blog/article_page.html', { 'article': article })
+    # return render(request, 'blog/article_page.html', { 'article': article })
+    return null
 
 def test(request):
     return HttpResponse('hello world')
